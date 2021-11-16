@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turgay Demir Portfolio</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/62ec7cd660.js" crossorigin="anonymous"></script>
+</head>
+<!-- 
+    Yapilacaklar
+    1. Resimler atanacak 1000px le 400px
+    2. More button u yeni sayfaya yonlendirilecek
+    3. Nav yonlendirmeler yapilacak 
+ -->
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="bar-btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <a class="logo" href="index.html">/T.dmr</a>
+        <ul class="navbar" id="nav-bar">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">My Works</a></li>
+            <li><a href="#experience">My Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("nav-bar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+    <main>
+        <section class="inline-block-section">
+            <section>
+                <div class="profile">
+                    <div class="img">
+                        <img src="img/tdemir.jpeg" alt="Turgay Demir" width="150px" height="150px">
+                    </div>
+                    <div class="info-text">
+                        <h2>Turgay Demir</h2>
+                        <h4>Front End Developer & QA Automation Engineer</h4>
+                        <p>Detail oriented, flexible and quicklearner personality. <br> Highlymotivated, innovative and crossfunctional team member withstrong 
+                            problem-solving andcommunication skills.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/turgay-demir-885b1691/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/TurgayD34"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="about-me" id="about">
+                <h2>About Me</h2>
+                <div class="img">
+                    <img src="img/bc.png" alt="About page img" width="700px" height="300px">
+                </div>
+                <p>Hi, my name is Turgay Demir. I have graduated University Depertment of Mathematics Education. I worked as a Mathematics teacher between 
+                    2012 and 2017. I switched to computer programming 5 years ago. Since I have numerical intelligence, I had no difficulty in changing the branch. <br>
+                    Initially, I learned the Java language and did internship in 2 places as a QA and now I took a course in the front end area and 
+                    I continue to improve myself in this area.
+                    </p>
+            </section>
+        </section>
+        <section class="slides" id="work">
+            <h2>My Works</h2>
+            <div class="img-slides-container">
+                <div class="slideshow-container">
+                    <div>
+                        <img src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669__480.jpg" width="1000px" height="400px">
+                      </div>
+                      
+                      <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX5FzQicErOBMLwk6mIaaNp-qZ5v86dbYifMR1gw9xQ5fPwvpPIWdc7gixLOBG2KBWXHU&usqp=CAU" width="1000px" height="400px">
+                      </div>
+                </div>
+            </div>
+            <div class="works-info">
+                <div class="info-container">
+                    <div class="info-box">
+                        <h3>Been Cafe</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores numquam repellendus sint deserunt quisquam, incidunt voluptatem quas tempora ex!</p>
+                        <img src="https://i4.hurimg.com/i/hurriyet/75/750x0/5d78ea1d45d2a023a0d4b139.jpg" alt="" width="300px" height="300px">
+                        <a href="#" class="button">More</a>
+                    </div>
+                    <div class="info-box">
+                        <h3>M<i class="fas fa-microphone-alt"></i>crophone</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi maiores numquam repellendus sint deserunt quisquam, incidunt voluptatem quas tempora ex!</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfQmZnP-YFOMn44u5eoXi227kFWhQGX0FP43c0_v1if2rPOX2IFHGpj8_cEdk6pNqFXKU&usqp=CAU" alt="" width="300px" height="300px">
+                        <a href="#" class="button">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="edu-exp" id="experience">
+            <h2>My Experience</h2>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'education')" id="defaultOpen">Education</button>
+                <button class="tablinks" onclick="openTab(event, 'works')">Works</button>
+                <button class="tablinks" onclick="openTab(event, 'skills')">Skills</button>
+                <button class="tablinks" onclick="openTab(event, 'career')">Career Summary</button>
+            </div>
+            <div id="education" class="tabcontent">
+                <div>
+                    <div class="exp-box">
+                        <ul>
+                            <li><h3>Front End Developer</h3></li>
+                            <li><h4>Sundsgården Folkhögskolan</h4></li>
+                            <li><h5>Aug 2020 -- Jan 2021 / Helsingborg / Sweden</h5></li>
+                            <li>
+                                <p>
+                                    During the course, 18 large and small projects were carried out and 2 projectswere made as a group and will continue to be done 
+                                    until the end of the course. <br>These projects are shared on github and we have common shares in this projectin groups.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="exp-box">
+                        <ul>
+                            <li><h3>QA Automation Engineer</h3></li>
+                            <li><h4>Cybertek School</h4></li>
+                            <li><h5>April 2018 -- Dec 2018 / Virginia / United State</h5></li>
+                            <li>
+                                <p>
+                                    The nation's top-ranked coding school focused on Test Automation, FullStack Development. Completed over 1000+ hours of full-time 
+                                    courseinstruction, projects, as well as co-op work experience in the industry
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="exp-box">
+                        <ul>
+                            <li><h3>Mathematics Education</h3></li>
+                            <li><h4>Sarjana Wiyata Tamansiswa University</h4></li>
+                            <li> <h5>2007 - 2012 / Yogyakarta / Indonesia</h5></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="works" class="tabcontent">
+                <div>
+                    <div class="exp-box">
+                        <ul>
+                            <li><h3>Hultsfred Kommun</h3></li>
+                            <li><h4>Interpreter</h4></li>
+                            <li><h5>Years</h5></li>
+                            <li>
+                                <p>I worked Interpreter Turkish to Swidish and Swedish to Turkish</p>
+                            </li>
+                        </ul>    
+                    </div>
+                    <div class="exp-box">
+                        <ul>
+                            <li><h3>Local Director</h3></li>
+                            <li><h4>Nigerian Tulip International Foundation</h4></li>
+                            <li><h5>Jan 2013 -- Aug 2016</h5></li>
+                        </ul>   
+                    </div>
+                    <div class="exp-box">
+                        <ul>
+                            <li><h3>Mathematics Teacher</h3></li>
+                            <li><h4>Nigerian Tulip International Colleges</h4></li>
+                            <li><h5>Sept 2012 -- March 2017</h5></li>
+                            <li>
+                                <p>I was working as a Maths teacher and Maths Olympiad coordinator for national and International.</p>
+                            </li>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills" class="tabcontent">
+               <div>
+                <div class="exp-box">
+                    <ul>
+                        <li><h3>QA Automation Skills</h3></li>
+                        <li>
+                            <p><i class="fas fa-angle-right"></i> Java <br><i class="fas fa-angle-right"></i> Selenium Cucumber <br><i class="fas fa-angle-right"></i> TestNg <br><i class="fas fa-angle-right"></i> Junit <br><i class="fas fa-angle-right"></i> SQL <br><i class="fas fa-angle-right"></i> Postman <br><i class="fas fa-angle-right"></i> Maven <br><i class="fas fa-angle-right"></i> Jira <br><i class="fas fa-angle-right"></i> Github <br><i class="fas fa-angle-right"></i> SeleniumGrid <br><i class="fas fa-angle-right"></i> Jenkins <br><i class="fas fa-angle-right"></i> Intellij IDEA <br><i class="fas fa-angle-right"></i> Eclipse</p> 
+                        </li>
+                    </ul> 
+                </div>
+                <div class="exp-box">
+                    <ul>
+                        <li><h3>Front End Skills</h3></li>
+                        <li>
+                            <p><i class="fas fa-angle-right"></i> HTML5 <br><i class="fas fa-angle-right"></i> CSS3 <br><i class="fas fa-angle-right"></i> JavaScript <br><i class="fas fa-angle-right"></i> Figma <br><i class="fas fa-angle-right"></i> Modern Design Libraries <br><i class="fas fa-angle-right"></i> ModernFrameworks <br><i class="fas fa-angle-right"></i> Git/Github <br><i class="fas fa-angle-right"></i> Visual Studio Code <br><i class="fas fa-angle-right"></i> Programming Techniques <br><i class="fas fa-angle-right"></i> Agile Work</p>
+                        </li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+            <div id="career" class="tabcontent">
+                <p><i class="fas fa-circle"></i>  Excellent knowledge andimplementation skills in SDLC,STLC and Defect Life Cycle <br><i class="fas fa-circle"></i>  Proven ability in designing anddeveloping automation frameworkusing Java, Maven, Selenium,TestNG, Junit, Cucumber <br><i class="fas fa-circle"></i>  Experience in API using functionslike Get, Post, Put and Deletemethods. Using Postman, andREST Assured Library with Java <br><i class="fas fa-circle"></i>  Experience in different type ofreports for my testing frameworklike Extent-HTML reports/TestNG/ Cucumber/ JSON reports <br><i class="fas fa-circle"></i> Experience of developing fromscratch and/or maintainingAutomation Framework Models(BDD / TDD Hybrid) <br><i class="fas fa-circle"></i> Hand on experience in Functionaltest, UI test, API test, Databasetest, Regression Test, Smoke test</p>
+            </div>
+
+            <script>
+                function openTab(evt, content) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(content).style.display = "block";
+                evt.currentTarget.className += " active";
+                }
+
+                document.getElementById("defaultOpen").click();
+            </script>
+        </section>
+        <section class="contact-form" id="contact">
+            <h2>Contact From</h2>
+            <div class="contact">
+                <form action="#">
+                    <label for="fname">Full Name</label>
+                    <input type="text" id="fname" name="fullname" placeholder="Your name..">
+                
+                    <label for="e-mail">Email</label>
+                    <input type="email" id="email" name="e-mail" placeholder="Email..">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="fnumber" name="phone" placeholder="Phone number..">
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
