@@ -1,0 +1,91 @@
+@import '_fonts&colors';
+
+.edu-exp{
+    max-width: 1280px;
+    width: 100%;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 80px;
+    h2{
+        @extend .h2-header;
+    }
+    .tab {
+        float: left;
+        // border-right: 1px solid #000;
+        background-color: $body-color;
+        width: 13%;
+        height: 300px;
+    
+        button{
+            display: block;
+            background-color: inherit;
+            color: $color-white;
+            padding: 22px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 17px;
+    
+            &:hover {
+                background-color: $color-brown;
+            }
+        }
+        button.active {
+            background-color: $section-bc;
+        }
+    }
+    .tabcontent {
+        float: left;
+        padding: 0px 12px;
+        width: 82%;
+        border-left: none;
+        height: max-content;
+        color: $color-white;
+    }
+    #education, #works, #skills{
+       div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+            .exp-box{
+                max-width: 310px;
+                width: 100%;
+                font-family: $font-family-roboto;
+
+                ul{
+                    list-style-type: none;
+                    h3{
+                        color: #00450c;
+                        font-size: 18px;
+                    }
+                    h4{
+                        color: teal;
+                        font-size: 16px;
+                    }
+                    h5{
+                        color: teal;
+                        font-size: 16px;
+                    }
+                    .fas{
+                        color: tomato;
+                    }
+                }
+            }
+        }
+    }
+    #career{
+        p{
+            font-family: $font-family-roboto;
+            line-height: 28px;
+        }
+        .fas{
+            color: tomato;
+            font-size: 10px;
+        }
+    }
+}
+

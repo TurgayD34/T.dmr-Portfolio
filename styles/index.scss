@@ -1,0 +1,15 @@
+@import '_fonts&colors';
+
+@import '_nav';
+@import '_main-profile';
+@import '_main-about';
+@import '_main-experince';
+@import '_main-myWorks';
+@import '_contact';
+
+.inline-block-section{
+    section{
+        display: inline-block;
+    }
+}
+
