@@ -10,29 +10,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
-.h2-header, .profile .info-text h2, .about-me h2, .edu-exp h2, .slides h2, .contact-form h2 {
+.h2-header, .slides h2, .contact-form h2 {
   font-family: "Mochiy Pop P One", sans-serif;
   color: brown;
   margin-left: 30px;
 }
 
-.h2-header, .profile .info-text h2, .about-me h2, .edu-exp h2, .slides h2, .contact-form h2 {
+.h2-header, .slides h2, .contact-form h2 {
   font-family: "Mochiy Pop P One", sans-serif;
   color: brown;
   margin-left: 30px;
@@ -172,110 +156,197 @@ nav ul li a:hover::before {
   }
 }
 
-.h2-header, .profile .info-text h2, .about-me h2, .edu-exp h2, .slides h2, .contact-form h2 {
-  font-family: "Mochiy Pop P One", sans-serif;
-  color: brown;
-  margin-left: 30px;
-}
-
 .profile {
-  max-width: 400px;
   width: 100%;
-  height: 440px;
-  margin-left: 50px;
-  margin-top: 80px;
-}
-
-.profile .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.profile .img img {
-  border-radius: 50%;
-  border: 2px solid #ffffff;
+  height: 380px;
 }
 
 .profile .info-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  float: left;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.profile .info-text h2 {
+  font-size: 32px;
+  font-family: "Irish Grover", cursive;
   color: #ffffff;
-  font-family: "Indie Flower", cursive;
+}
+
+.profile .info-text h3 {
+  font-size: 52px;
+  font-family: "Irish Grover", cursive;
+  color: #999900;
 }
 
 .profile .info-text h4 {
   font-size: 18px;
-}
-
-.profile .info-text p {
-  width: 90%;
-  height: 120px;
-  line-height: 24px;
-}
-
-.profile .icons {
-  font-size: 24px;
-  margin-left: 3%;
-  margin-left: 25%;
-}
-
-.profile .icons .fab {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  background: #333;
+  font-family: "Irish Grover", cursive;
   color: #ffffff;
-  margin-right: 20px;
+  margin-top: -20px;
+  margin-bottom: 40px;
 }
 
-.profile .icons .fab:hover {
-  background-color: darkblue;
+.profile .info-text a {
+  text-decoration: none;
+  padding: 12px 32px;
+  border: 2px solid #999900;
+  color: #ffffff;
 }
 
-.h2-header, .profile .info-text h2, .about-me h2, .edu-exp h2, .slides h2, .contact-form h2 {
-  font-family: "Mochiy Pop P One", sans-serif;
-  color: brown;
-  margin-left: 30px;
+.profile .img img {
+  width: 360px;
+  height: 360px;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 1188px) {
+  .profile .info-text {
+    margin-left: 8%;
+  }
+  .profile .info-text h2 {
+    font-size: 28px;
+  }
+  .profile .info-text h3 {
+    font-size: 48px;
+  }
+  .profile .info-text h4 {
+    font-size: 16px;
+  }
+  .profile .info-text a {
+    padding: 12px 32px;
+  }
+  .profile .img img {
+    margin-left: 2%;
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .profile .info-text {
+    margin-left: 5%;
+  }
+  .profile .info-text h2 {
+    font-size: 24px;
+  }
+  .profile .info-text h3 {
+    font-size: 44px;
+  }
+  .profile .info-text h4 {
+    font-size: 14px;
+  }
+  .profile .info-text a {
+    padding: 10px 28px;
+  }
+  .profile .img img {
+    margin-left: 2%;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .profile .info-text {
+    margin-left: 3%;
+  }
+  .profile .info-text h2 {
+    font-size: 22px;
+  }
+  .profile .info-text h3 {
+    font-size: 38px;
+  }
+  .profile .info-text h4 {
+    font-size: 12px;
+  }
+  .profile .info-text a {
+    padding: 8px 24px;
+  }
+  .profile .img img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .profile .info-text {
+    margin-left: 2%;
+  }
+  .profile .info-text h2 {
+    font-size: 24px;
+  }
+  .profile .info-text h3 {
+    font-size: 36px;
+  }
+  .profile .info-text h4 {
+    font-size: 12px;
+  }
+  .profile .info-text a {
+    padding: 6px 20px;
+  }
+  .profile .img img {
+    display: none;
+  }
 }
 
 .about-me {
-  max-width: 700px;
-  height: 520px;
+  height: 350px;
   width: 100%;
-  margin-left: 120px;
-  background-color: #23263a;
+  background-color: #353849;
 }
 
-.about-me .img {
-  max-width: 700px;
-  width: 100%;
-  height: 300px;
+.about-me .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.about-me p {
-  line-height: 24px;
-  font-family: "Roboto", sans-serif;
+.about-me .container .img {
+  float: left;
+  margin-left: 10%;
+}
+
+.about-me .container .img .box {
+  width: 200px;
+  height: 250px;
+  border: 5px solid #999900;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.about-me .container .img .box img {
+  width: 100%;
+  height: 100%;
+  margin-left: 11%;
+  margin-top: 11%;
+}
+
+.about-me .container div {
+  margin-left: 10%;
+}
+
+.about-me .container div h2 {
+  font-family: "Irish Grover", cursive;
+  font-size: 32px;
+  color: #999900;
+  margin-left: 3%;
+}
+
+.about-me .container div h2 span {
   color: #ffffff;
 }
 
-.h2-header, .profile .info-text h2, .about-me h2, .edu-exp h2, .slides h2, .contact-form h2 {
-  font-family: "Mochiy Pop P One", sans-serif;
-  color: brown;
-  margin-left: 30px;
+.about-me .container div p {
+  max-width: 600px;
+  width: 100%;
+  height: 400px;
+  margin-top: -20px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .edu-exp {
@@ -283,7 +354,17 @@ nav ul li a:hover::before {
   width: 100%;
   height: 500px;
   margin-left: 50px;
-  margin-top: 80px;
+}
+
+.edu-exp h2 {
+  font-family: "Irish Grover", cursive;
+  font-size: 32px;
+  color: #ffffff;
+  margin-left: 3%;
+}
+
+.edu-exp h2 span {
+  color: #999900;
 }
 
 .edu-exp .tab {
@@ -309,7 +390,7 @@ nav ul li a:hover::before {
 }
 
 .edu-exp .tab button:hover {
-  background-color: brown;
+  background-color: #999900;
 }
 
 .edu-exp .tab button.active {
@@ -327,7 +408,7 @@ nav ul li a:hover::before {
   color: #ffffff;
 }
 
-.edu-exp #education div, .edu-exp #works div, .edu-exp #skills div {
+.edu-exp #education div, .edu-exp #works div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,49 +418,89 @@ nav ul li a:hover::before {
       justify-content: space-around;
 }
 
-.edu-exp #education div .exp-box, .edu-exp #works div .exp-box, .edu-exp #skills div .exp-box {
+.edu-exp #education div .exp-box, .edu-exp #works div .exp-box {
   max-width: 310px;
   width: 100%;
   font-family: "Roboto", sans-serif;
 }
 
-.edu-exp #education div .exp-box ul, .edu-exp #works div .exp-box ul, .edu-exp #skills div .exp-box ul {
+.edu-exp #education div .exp-box ul, .edu-exp #works div .exp-box ul {
   list-style-type: none;
 }
 
-.edu-exp #education div .exp-box ul h3, .edu-exp #works div .exp-box ul h3, .edu-exp #skills div .exp-box ul h3 {
-  color: #00450c;
+.edu-exp #education div .exp-box ul h3, .edu-exp #works div .exp-box ul h3 {
+  color: #999900;
   font-size: 18px;
 }
 
-.edu-exp #education div .exp-box ul h4, .edu-exp #works div .exp-box ul h4, .edu-exp #skills div .exp-box ul h4 {
-  color: teal;
+.edu-exp #education div .exp-box ul h4, .edu-exp #works div .exp-box ul h4 {
+  color: brown;
   font-size: 16px;
 }
 
-.edu-exp #education div .exp-box ul h5, .edu-exp #works div .exp-box ul h5, .edu-exp #skills div .exp-box ul h5 {
-  color: teal;
-  font-size: 16px;
+.edu-exp #education div .exp-box ul h5, .edu-exp #works div .exp-box ul h5 {
+  color: brown;
+  font-size: 12px;
 }
 
-.edu-exp #education div .exp-box ul .fas, .edu-exp #works div .exp-box ul .fas, .edu-exp #skills div .exp-box ul .fas {
+.edu-exp #education div .exp-box ul .fas, .edu-exp #works div .exp-box ul .fas {
   color: tomato;
 }
 
-.edu-exp #career p {
+.edu-exp #career ul {
+  position: relative;
+  list-style-type: none;
+}
+
+.edu-exp #career ul li {
   font-family: "Roboto", sans-serif;
   line-height: 28px;
-}
-
-.edu-exp #career .fas {
-  color: tomato;
-  font-size: 10px;
-}
-
-.h2-header, .profile .info-text h2, .about-me h2, .edu-exp h2, .slides h2, .contact-form h2 {
-  font-family: "Mochiy Pop P One", sans-serif;
-  color: brown;
   margin-left: 30px;
+  font-size: 14px;
+}
+
+.edu-exp #career ul li .fas {
+  margin-right: 5px;
+  color: crimson;
+}
+
+.edu-exp #skills .skills-box {
+  float: left;
+  margin-left: 20%;
+  margin-top: -40px;
+}
+
+.edu-exp #skills .skills-box h3 {
+  color: #999900;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.edu-exp #skills .skills-box ul {
+  position: relative;
+  margin-top: -10px;
+}
+
+.edu-exp #skills .skills-box ul li {
+  position: relative;
+  list-style: none;
+  margin: 8px 0;
+  padding-left: 50px;
+  background: #353849;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.edu-exp #skills .skills-box ul li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: crimson;
+  border-radius: 50%;
 }
 
 .slides {
@@ -517,7 +638,7 @@ nav ul li a:hover::before {
   }
 }
 
-.h2-header, .profile .info-text h2, .about-me h2, .edu-exp h2, .slides h2, .contact-form h2 {
+.h2-header, .slides h2, .contact-form h2 {
   font-family: "Mochiy Pop P One", sans-serif;
   color: brown;
   margin-left: 30px;
@@ -574,9 +695,5 @@ nav ul li a:hover::before {
   font-size: 24px;
   color: #ffffff;
   margin-left: 20px;
-}
-
-.inline-block-section section {
-  display: inline-block;
 }
 /*# sourceMappingURL=index.css.map */
