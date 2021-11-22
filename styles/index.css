@@ -10,13 +10,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
-.h2-header, .slides h2, .contact-form h2 {
+.h2-header {
   font-family: "Mochiy Pop P One", sans-serif;
   color: brown;
   margin-left: 30px;
 }
 
-.h2-header, .slides h2, .contact-form h2 {
+.h2-header {
   font-family: "Mochiy Pop P One", sans-serif;
   color: brown;
   margin-left: 30px;
@@ -504,148 +504,73 @@ nav ul li a:hover::before {
 }
 
 .slides {
-  margin-top: 80px;
+  width: 100%;
+  height: 740px;
+  background-color: #353849;
+  margin-top: -70px;
 }
 
 .slides h2 {
-  margin-left: 200px;
+  font-family: "Irish Grover", cursive;
+  font-size: 32px;
+  color: #ffffff;
+  margin-left: 3%;
 }
 
-.slides .img-slides-container {
-  max-width: 1000px;
+.slides h2 span {
+  color: #999900;
+}
+
+.slides .img-container {
+  max-width: 1300px;
   width: 100%;
-  height: 350px;
   margin: auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.slides .img-slides-container .slideshow-container {
-  position: absolute;
-  width: 300%;
-  left: 0;
-  -webkit-animation: item-slides 15s infinite;
-          animation: item-slides 15s infinite;
-}
-
-.slides .img-slides-container .slideshow-container div {
-  width: 33.3%;
-  float: left;
-}
-
-.slides .img-slides-container .slideshow-container:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-.slides .works-info {
-  max-width: 700px;
-  width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  margin: 20px auto;
-}
-
-.slides .works-info .info-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.slides .works-info .info-container .info-box {
-  max-width: 300px;
-  background-color: #23263a;
+.slides .img-container .img-box {
+  -webkit-box-shadow: 3px 3px 3px 3px #999900;
+          box-shadow: 3px 3px 3px 3px #999900;
 }
 
-.slides .works-info .info-container .info-box h3 {
-  color: #ffffff;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-bottom: 2px solid brown;
-  font-family: "Indie Flower", cursive;
-  font-size: 24px;
+.slides .img-container .img-box:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
-.slides .works-info .info-container .info-box p {
-  font-family: "Roboto", sans-serif;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #ffffff;
+.slides .text {
+  margin-top: 30px;
+  margin-left: 100px;
 }
 
-.slides .works-info .info-container .info-box a {
-  padding: 4px 70px;
-  margin-left: 20%;
-  background-color: brown;
-  color: #ffffff;
-  font-family: "Indie Flower", cursive;
-  font-size: 20px;
-  border: none;
-  border-radius: 20px;
+.slides .text a {
   text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
 }
 
-@-webkit-keyframes item-slides {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  25% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  50% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-  }
-  75% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
-
-@keyframes item-slides {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  25% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  50% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-  }
-  75% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
-
-.h2-header, .slides h2, .contact-form h2 {
+.h2-header {
   font-family: "Mochiy Pop P One", sans-serif;
   color: brown;
   margin-left: 30px;
 }
 
 .contact-form h2 {
-  margin-left: 300px;
+  font-family: "Irish Grover", cursive;
+  font-size: 32px;
+  color: #999900;
+  margin-left: 3%;
+}
+
+.contact-form h2 span {
+  color: #ffffff;
 }
 
 .contact-form .contact {

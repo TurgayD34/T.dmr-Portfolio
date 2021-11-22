@@ -2,8 +2,13 @@
 
 .contact-form{
     h2{
-        @extend .h2-header;
-        margin-left: 300px;
+        font-family: $font-family-irish;
+        font-size: 32px;
+        color: $color-yellow;
+        margin-left: 3%;
+        span{
+            color: $color-white;
+        }
     }
     .contact{
         max-width: 1000px;
